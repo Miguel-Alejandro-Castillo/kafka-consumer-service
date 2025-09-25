@@ -66,11 +66,6 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<configuration>
-					<image>
-						<runImage>paketobuildpacks/ubuntu-noble-run-base:latest</runImage>
-					</image>
-				</configuration>
 			</plugin>
 		</plugins>
 	</build>
